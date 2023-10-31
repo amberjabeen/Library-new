@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Library App</title>
+    <link rel="stylesheet" href="C:\Users\HP\Desktop\Ruby\Library new\normalize.css">
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <header>
+      <!-- Add an <img> element for your logo -->
+      <img src="C:\Users\HP\Desktop\4885201.png" alt="Library Logo" />
+      <h1>Library Centeral</h1>
+      <p id="subHeading">By Amber Jabeen</p>
+    </header>
+    <main>
+      <input type="file" id="csvFile" accept=".csv">
+      <button id="importCSV">Import CSV</button>
+      <button class="new">Add a book</button>
+      <div class="table">
+        <table>
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Author</th>
+              <th>Subject</th>
+              <th>Pages</th>
+              <th>Publisher</th>
+              <th></th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Table data will be added dynamically -->
+          </tbody>
+        </table>
+      </div>
+      <div class="form hidden">
+        <h2>Adding/Editing a book</h2>
+        <input type="text" id="title" placeholder="Title">
+        <input type="text" id="author" placeholder="Author">
+        <input type="text" id="subject" placeholder="Subject">
+        <input type="number" id="pages" placeholder="Pages" min="0">
+        <input type="text" id="publisher" placeholder="Publisher">
+      </div>
+    </main>
+    <script src="C:\Users\HP\Desktop\Ruby\Library new\script.js></script>
+  </body>
+</html>
