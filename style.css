@@ -2,7 +2,7 @@ body {
   font-size: 20px;
   font-family: "Segoe UI", Arial, Helvetica, sans-serif;
   color: #edbcbc;
-  background-color: #0004ff;
+  background-color: #d37618;
 }
 
 header img {
@@ -15,7 +15,7 @@ header img {
 
 header {
   text-align: center;
-  color: #00adf1;
+  color: #0800f1;
 }
 
 header > * {
